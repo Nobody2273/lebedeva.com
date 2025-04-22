@@ -1,0 +1,154 @@
+body{
+    background-color: white;
+    width: 1440px;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    width: 1440px;
+    position: relative;
+}
+ul.oneh{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+ul.twoh{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 190px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+img.logo{
+    margin-top: 25px;
+    padding-left: 200px;
+    height: 74px;
+}
+
+
+.menu{
+    width: 35%;
+    height: 25%;
+    cursor:pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+#menu{
+    list-style-type: none;
+    cursor: pointer;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    position: absolute;
+    text-align: center;
+    padding-left: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+button.m{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+div.one{
+    margin-left: 104px;
+    margin-top: 70px;
+    display: flex;
+}
+div.text1{
+    font-family: "Kanit", sans-serif;
+    font-size: 85px;
+    font-style: normal;
+    width: 500px;
+    height: 210px;
+}
+div.text2{
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    width: 500px;
+    margin-top: 40px;
+}
+button.main{
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    background-color: #FF4500;
+    width: 150px;
+    height: 50px;
+    border: solid 3px;
+}
+img.photo_main{
+    height: 500px;
+    margin-left: 150px;
+}
+footer{
+    display: flex;
+}
+.line{
+    margin-left: 65px;
+    margin-top: 115px;
+    border: solid 1px;
+}
+div.link{
+    display: flex;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+li a{
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+}
+li.ul_main{
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 45px;
+}
+div.info{
+    margin-left: 340px;
+}
+.text_info1{
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 25px;
+}
+.text_info2{
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 10px;
+}
+div.mes{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 25px;
+}
+button.mes{
+    width:100px;
+    margin-top: 10px;
+    font-family: "Kanit", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    background-color: #FF4500;
+    border: solid 3px;
+}
+img.znak_info{
+    margin-top: 20px;
+}
