@@ -45,4 +45,4 @@
             </div>
         </div>
     </footer>
-    <div><img class="logo" src="/assets/images/logo.png" style="margin-left: 375px; margin-top: 100px;"></a></div>
+    <div class="div_logo"><img class="logo" src="/assets/images/logo.png" style=" margin-top: 100px;"></a></div>
