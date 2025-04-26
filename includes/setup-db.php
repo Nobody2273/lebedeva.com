@@ -1,3 +1,4 @@
+<?php
 include 'includes/db.php';
 $query = <<<SQL
 CREATE TABLE IF NOT EXISTS articles (
