@@ -3,7 +3,8 @@ $menuItems = [
     'Главная' => '/index.php',
     'Мерч' => '/pages/merch.php',
     'Фотографии' => '/pages/photo.php',
-    'Контакты' => '/pages/contact.php'
+    'Контакты' => '/pages/contact.php',
+    'Статьи' => '/pages/add_article.php'
 ];
 ?>
 <header>
