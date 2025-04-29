@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Главная</title>
+    <title>Контакты</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
