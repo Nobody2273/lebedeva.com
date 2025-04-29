@@ -1,6 +1,5 @@
 body{
     background-color: white;
-    width: 1440px;
     margin: 0; 
     padding: 0;
     width: 100%;
@@ -75,6 +74,7 @@ div.one{
     margin-left: 104px;
     margin-top: 70px;
     display: flex;
+    width: 100%;
 }
 div.text1{
     font-family: "Kanit", sans-serif;
@@ -238,4 +238,205 @@ nav {
     font-weight: bold;
     color: #FF4500;
     border-bottom: 2px solid #FF4500;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.article-form-container {
+    width: 50%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background: #FF4500;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+
+@media (max-width: 1200px) {
+    div.mer, div.photo {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    img.mer, img.photo {
+        margin: 10px;
+    }
+    
+    div.one {
+        margin-left: 50px;
+    }
+    
+    img.photo_main {
+        margin-left: 50px;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    div.text1 {
+        font-size: 60px;
+        width: 100%;
+        height: auto;
+    }
+    
+    div.text2 {
+        font-size: 24px;
+        width: 100%;
+    }
+    
+    div.one {
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    img.photo_main {
+        margin: 30px 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        flex-direction: column;
+    }
+    
+    div.info, div.link {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .line {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+    
+    .menu-list {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    ul.oneh, ul.twoh {
+        width: 100%;
+        margin: 20px 0;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    div.text1 {
+        font-size: 48px;
+    }
+    
+    div.text2 {
+        font-size: 20px;
+    }
+    
+    button.main, button.mes {
+        width: 100%;
+    }
+    
+    .contact-form {
+        margin: 20px;
+        padding: 15px;
+    }
+    
+    div.mer, div.photo {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    div.text1 {
+        font-size: 36px;
+    }
+    
+    div.text2 {
+        font-size: 18px;
+    }
+    
+    p.head {
+        font-size: 30px;
+    }
+    
+    p.mer_main, p.mer, a.mer {
+        font-size: 16px;
+    }
+    
+    img.logo {
+        height: 50px;
+    }
+    
+    .menu-list li a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    .submit-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
 }
